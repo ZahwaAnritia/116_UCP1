@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     },
     Tanggal_Pesan: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.DATETIME,
       allowNull: false
     }
   }, {
