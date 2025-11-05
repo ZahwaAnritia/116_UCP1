@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-  const Hotel = sequelize.define("Hotel", {
+  const Hotel = sequelize.define('Hotel', {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
@@ -10,15 +10,15 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     },
     Kapasitas_Tamu: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    Lantai: {
       type: DataTypes.INTEGER,
       allowNull: false
     },
+    Lantai: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
     Fasilitas: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING,
       allowNull: false
     },
     Tanggal_Pesan: {
