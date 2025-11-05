@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     },
     Tanggal_Pesan: {
-      type: DataTypes.DATETIME,
+      type: DataTypes.DATE,
       allowNull: false
     }
   }, {
@@ -31,5 +31,5 @@ module.exports = (sequelize, DataTypes) => {
     timestamps: true
   });
 
-  return Film;
+  return Hotel;
 };
